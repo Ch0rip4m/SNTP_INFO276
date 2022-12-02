@@ -12,7 +12,7 @@ sock = skt.socket(skt.AF_INET, skt.SOCK_DGRAM)
 
 i = 0
 while i<10: 
-    data = "holi"
+    data = "Hello there"
     sock.sendto(data.encode(), (HOST, PORT))
     data = sock.recv(1024)
 
