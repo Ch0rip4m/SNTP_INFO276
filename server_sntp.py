@@ -28,4 +28,4 @@ while True:
     
     print('TIEMPO SERVIDOR: {}'.format(time.ctime(tiempoServidor)))
 
-    sock.sendto(msj_bytes,clientAdress)
+    sock.sendto(msj_bytes,clientAdress) # envio de respuesta
